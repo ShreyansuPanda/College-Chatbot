@@ -1,0 +1,92 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Welcome to HKBK College of Engineering",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Courses",
+        "patterns": [
+          "Which courses do you have?",
+          "What all courses are available?",
+          "Courses?",
+          "B.Tech Courses"
+          
+        ],
+        "responses": [
+          "We have \n1)Computer Science and Engineering\n2)Artificial Intelligence and Machine Learning\n3)Infomation Science Engineering\n4)Mechanical Engineering\n5)Electronic and Communication Engineering",
+          "We have \n1)Computer Science and Engineering\n2)Artificial Intelligence and Machine Learning\n3)Infomation Science Engineering\n4)Mechanical Engineering\n5)Electronic and Communication Engineering"
+        ]
+      },
+      {
+        "tag": "Address",
+        "patterns": [
+          "What is the college address?",
+          "Address?",
+          "College address?",
+          "How to reach college?"
+        ],
+        "responses": [
+          "HKBK COLLEGE ENGINEERING 22/1, OPP.MANYATA TECH PARK, NAGAWARA, BANGALORE-560045",
+          "HKBK COLLEGE ENGINEERING 22/1, OPP.MANYATA TECH PARK, NAGAWARA, BANGALORE-560045"
+        ]
+      },
+
+      {
+        "tag": "Contact",
+        "patterns": [
+          "How to contact the college?",
+          "Reception Number",
+          "College Phone Number?",
+          "Contact Details",
+          "Phone no"
+        ],
+        "responses": [
+          "RECEPTION : 08025441722\n Email ID: info@hkbk.edu.in",
+          "FOR ADMISSIONS\n INDIAN STUDENTS\n+91 9035022250\n\nINTERNATIONAL STUDENTS\n+91 9035522311\nEmail:\nadmissions@hkbk.edu.in"
+        ]
+      },
+      {
+        "tag": "Admission",
+        "patterns": [
+          "How to get admission in college?",
+          "CSE Admission",
+          "Admission",
+          "Aiml Admission",
+          "Admission Details"
+        ],
+        "responses": [
+          "RECEPTION : 08025441722\n Email ID: info@hkbk.edu.in",
+          "FOR ADMISSIONS\n INDIAN STUDENTS\n+91 9035022250\n\nINTERNATIONAL STUDENTS\n+91 9035522311\nEmail:\nadmissions@hkbk.edu.in",
+           "<a href='https://www.hkbk.edu.in/engineering/how-to-apply'>Click here</a> to apply for admission."
+        ]
+      }
+    ]
+  }
